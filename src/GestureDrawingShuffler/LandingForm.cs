@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GestureDrawingShuffler
 {
-    public partial class Form1 : Form
+    public partial class LandingForm : Form
     {
-        public Form1()
+        public LandingForm()
         {
             InitializeComponent();
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
